@@ -11,12 +11,9 @@ import { WagmiProvider } from "wagmi";
 import { sepolia } from "wagmi/chains";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
-const projectId = process.env.PROJECT_ID || "";
-const appName = process.env.APP_NAME || "";
-
 const config = getDefaultConfig({
-  appName: appName,
-  projectId: projectId,
+  appName: "FE Quiz",
+  projectId: "b6f5c72a48f391ef990f227999deb366",
   chains: [sepolia],
 });
 const queryClient = new QueryClient();
@@ -29,7 +26,8 @@ const WalletProvider = ({ children }: { children: React.ReactNode }) => {
           locale="en-US"
           theme={lightTheme({
             accentColor: "#fff",
-            accentColorForeground: "white",
+            accentColorForeground: "black",
+            fontStack: "system",
             borderRadius: "large",
           })}
         >

@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import NavbarComponents from "./Navbar";
 import { Button } from "@nextui-org/button";
+import MobileNavbar from "./MobileNavbar";
 const Hero = () => {
   const interactiveRef = useRef<HTMLDivElement | null>(null);
   const bgRef = useRef<HTMLDivElement | null>(null);
@@ -24,7 +25,12 @@ const Hero = () => {
   });
   return (
     <div className="justify-center flex flex-col text-white items-center">
-      <NavbarComponents />
+      <div className="sm:flex hidden">
+        <NavbarComponents />
+      </div>
+      <div className="sm:hidden flex">
+        <MobileNavbar />
+      </div>
       <div className="absolute z-10 w-full h-full flex flex-col justify-center items-center pointer-events-none sm:gap-0 gap-10">
         <h1 className="z-10 text-center justify-self-center font-normal xl:text-[114px] sm:text-6xl text-4xl leading-tight pointer-events-none">
           Your Content Title

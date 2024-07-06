@@ -5,13 +5,13 @@ const Section = () => {
         At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
         gubergren.
       </p>
-      <p className="sm:text-xl text-sm opacity-70 2xl:pt-32 2xl:px-48 sm:p-20 py-[60px] px-[30px] lg:border-0 border-t border-[#D9D9D9] border-opacity-50 ">
+      <p className="sm:text-xl text-sm opacity-70 2xl:pt-28 2xl:px-48 sm:p-20 py-[60px] px-[30px] lg:border-0 border-t border-[#D9D9D9] border-opacity-50 ">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
         clita kasd gubergren.
       </p>
-      <p className="sm:text-xl text-sm 2xl:pt-32 2xl:px-48 sm:p-20 py-[60px] px-[30px] opacity-70 border-t border-[#D9D9D9] border-opacity-50">
+      <p className="sm:text-xl text-sm 2xl:pt-28 2xl:px-48 sm:p-20 py-[60px] px-[30px] opacity-70 border-t border-[#D9D9D9] border-opacity-50">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet

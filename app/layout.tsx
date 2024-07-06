@@ -17,9 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <WalletProvider>
-        <body className={manrope.className}>{children}</body>
-      </WalletProvider>
+      <body className={manrope.className}>
+        <WalletProvider>{children}</WalletProvider>
+      </body>
     </html>
   );
 }

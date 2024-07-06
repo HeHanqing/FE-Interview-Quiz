@@ -23,6 +23,7 @@ const config: Config = {
         light: {
           colors: {
             primary: "#fff",
+            secondary: "#000",
           },
         },
       },

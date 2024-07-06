@@ -8,7 +8,7 @@ const Footer = () => {
       <p className="sm:text-[16px] text-[12px] text-[#1C1C1E] opacity-70 sm:order-1 order-2">
         2024 Company Name. All Rights Reserved.
       </p>
-      <div className="flex gap-5 text-[#1C1C1E] opacity-70 ">
+      <div className="flex gap-5 text-[#1C1C1E] opacity-70 order-1 sm:order-2">
         <Link href="/">
           <FaXTwitter size={24} />
         </Link>
